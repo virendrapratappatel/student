@@ -64,5 +64,14 @@ public class StudentModel implements Serializable {
 		this.address = address;
 	}
 	
+	public Student(int id, String studentName, String rollNo, String course, String mobileNo, String address) {
+		super();
+		this.id = id;
+		this.studentName = studentName;
+		this.rollNo = rollNo;
+		this.course = course;
+		this.mobileNo = mobileNo;
+		this.address = address;
+	}
 	
 }
