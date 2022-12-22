@@ -36,7 +36,7 @@ public class StudentController {
 	
 	
 	@GetMapping
-	//@Cacheable("student")
+		//@Cacheable("student")
 	public List<StudentModel> getAllStudentDetails() {
 		return this.studentService.getAllStudent();
 	}
