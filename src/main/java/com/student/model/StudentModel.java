@@ -65,5 +65,4 @@ public class StudentModel implements Serializable {
 	}
 	
 	
-	
 }
