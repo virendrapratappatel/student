@@ -64,7 +64,4 @@ public class StudentModel implements Serializable {
 		this.address = address;
 	}
 	
-	
-	
-	
 }
