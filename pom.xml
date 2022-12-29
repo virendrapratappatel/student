@@ -11,6 +11,7 @@
 	<groupId>com.student</groupId>
 	<artifactId>Student</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>Student</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -65,21 +66,21 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				
 				<configuration>
-	                <mainClass>com.ec.common.GatewayApplication</mainClass>
+	                <mainClass>com.student.StudentApplication</mainClass>
 	               </configuration>
-		
-		    <executions>
-		        <execution>
-		            <goals>
-		                <goal>repackage</goal>
-		            </goals>
-		        </execution>
-		    </executions>
+	               
+	                <executions>
+				        <execution>
+				            <goals>
+				                <goal>repackage</goal>
+				            </goals>
+				        </execution>
+		    		</executions>
 				
 			</plugin>
 			
 		</plugins>
-		<finalName>Student-0.0.1-SNAPSHOT</finalName>
+		
 	</build>
 
 </project>
