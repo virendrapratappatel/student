@@ -38,8 +38,8 @@ public class StudentController {
 	@GetMapping
 		//@Cacheable("student")
 	public List<StudentModel> getAllStudentDetails() {
-		//return this.studentService.getAllStudent();
-		return null;
+		return this.studentService.getAllStudent();
+		//return null;
 	}
 
 	@GetMapping("getById")
